@@ -1,0 +1,10 @@
+<hibernate-mapping>
+    <class name="grupa.rest.coupon.Coupon" table="COUPON">
+        <id name="couponId" type="int" column="COUPON_ID">
+            <generator class="assigned"/>
+        </id>
+        <property name="naziv">
+            <column name="NAZIV"/>
+        </property>
+    </class>
+</hibernate-mapping>
